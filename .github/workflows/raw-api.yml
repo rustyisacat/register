@@ -18,6 +18,7 @@ concurrency:
 jobs:
     update:
         name: Update
+        if: github.repository == 'is-a-dev/register'
         runs-on: ubuntu-latest
 
         steps:
