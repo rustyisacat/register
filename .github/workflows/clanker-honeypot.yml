@@ -15,6 +15,7 @@ permissions:
 jobs:
     label:
         name: Filter out AI-generated PRs
+        if: github.repository == 'is-a-dev/register'
         runs-on: ubuntu-latest
 
         steps:
